@@ -176,10 +176,10 @@ figure {
   }
 
   .circle_image {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
-    margin: auto 43%;
+    margin: auto 44%;
     vertical-align: middle;
   }
 
@@ -219,12 +219,16 @@ figure {
     padding-top: 1%;
     font-size: 8px;
     margin-bottom: 12%;
+    margin-left: 10%;
+    margin-right: 10%;
+
   }
 
   .photography-figcaption {
     padding-top: 1%;
     font-size: 8px;
     margin-bottom: 12%;
+    margin-left: 10%;
   }
 
   .photography_image {
@@ -239,7 +243,7 @@ figure {
     margin-top: auto;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     vertical-align: middle;
     padding-top: 0%;
   }
@@ -250,11 +254,12 @@ figure {
   }
 
   .circle_image {
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
-    margin: auto 45%;
+    margin: auto 41%;
     vertical-align: middle;
+
   }
 
   .email_me_about_circle {
@@ -263,6 +268,10 @@ figure {
     padding-top: 1%;
     padding-bottom: 2%;
     border-radius: 4px;
+  }
+
+  footer {
+    padding-top: 5%;
   }
 
 }
