@@ -3,8 +3,7 @@
 }
 
 body {
-  background-image: url();
-  width: 100%;
+  height: 100%;
   margin: 0px;
   font-family: 'Cuprum', sans-serif;
 }
@@ -57,7 +56,6 @@ a:active {color:#323031;}
   margin: 0%;
   padding-top: 0%;
   vertical-align: middle;
-
 }
 
 .photography_image {
@@ -129,7 +127,8 @@ figure {
 
 /*  iphone 5 (320px)  */
 @media screen and (min-width:320px) and (max-width:374px){
-  .design-figcaption{
+
+  .design-figcaption {
     padding-top: 1%;
     font-size: 8px;
     margin-bottom: 12%;
@@ -137,10 +136,11 @@ figure {
     margin-right: 10%;
   }
 
-  .photography-figcaption{
+  .photography-figcaption {
     padding-top: 1%;
+    padding-bottom: 4%;
     font-size: 8px;
-    margin-bottom: 3%;
+    margin-bottom: 12%;
     margin: auto 10%;
   }
 
@@ -156,29 +156,64 @@ figure {
     margin-top: auto;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     vertical-align: middle;
     padding-top: 0%;
   }
 
   a.nav_links {
     position: relative;
-    font-size: 12px;
+    font-size: 1.5em;
     text-decoration: none;
   }
 
+  .about_main_image {
+    width: 90%;
+    margin: auto 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 4px;
+  }
+
   .circle_image {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
-    margin: auto 45%;
+    margin: auto 43%;
     vertical-align: middle;
+  }
+
+  .email_me_about_circle {
+    width: 40%;
+    margin: auto 30%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    border-radius: 4px;
   }
 
 }
 /*  iphone 6 (375px) iphone 6plus (414px) */
 @media screen and (min-width:375px) and (max-width:529px) {
 
+
+  nav {
+    font-family: 'Cuprum', sans-serif;
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    word-spacing: 20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 2%;
+  }
+
+  .about_main_image {
+    width: 90%;
+    margin: auto 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 4px;
+  }
 
   .design-figcaption {
     padding-top: 1%;
@@ -189,7 +224,7 @@ figure {
   .photography-figcaption {
     padding-top: 1%;
     font-size: 8px;
-    margin-bottom: 3%;
+    margin-bottom: 12%;
   }
 
   .photography_image {
@@ -210,16 +245,24 @@ figure {
   }
 
   a.nav_links {
-    font-size: 14px;
+    font-size: 2em;
     text-decoration: none;
   }
 
   .circle_image {
-    width: 60px;
-    height: 60px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     margin: auto 45%;
     vertical-align: middle;
+  }
+
+  .email_me_about_circle {
+    width: 40%;
+    margin: auto 30%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    border-radius: 4px;
   }
 
 }
@@ -228,12 +271,12 @@ figure {
 @media screen and (min-width:530px) and (max-width: 770px) {
 
 
-  .design-figcaption{
+  .design-figcaption {
     font-size: 12px;
     margin: 2% 10%;
   }
 
-  .photography-figcaption{
+  .photography-figcaption {
     font-size: 12px;
     margin: 2% 10%;
   }
@@ -256,8 +299,16 @@ figure {
   }
 
   a.nav_links {
-    font-size: 25px;
+    font-size: 3em;
     text-decoration: none;
+  }
+
+  .about_main_image {
+    width: 90%;
+    margin: auto 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 4px;
   }
 
   .circle_image {
@@ -266,6 +317,14 @@ figure {
     border-radius: 50%;
     margin: auto 45%;
     vertical-align: middle;
+  }
+
+  .email_me_about_circle {
+    width: 40%;
+    margin: auto 30%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    border-radius: 4px;
   }
 
 }
