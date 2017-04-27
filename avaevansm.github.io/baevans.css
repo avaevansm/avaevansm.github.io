@@ -1,0 +1,343 @@
+@-ms-viewport{
+  width: device-width;
+}
+
+body {
+  height: 100%;
+  margin: 0px;
+  font-family: 'Cuprum', sans-serif;
+}
+
+header {
+  position: relative;
+  background-image: ;
+  width: 100%;
+  padding-bottom: 0%;
+}
+
+div {
+  margin-top: 0px;
+  font-size: 50px;
+}
+
+nav {
+  font-family: 'Cuprum', sans-serif;
+  width: 100%;
+  height: 7%;
+  text-align: center;
+  word-spacing: 20px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 2%;
+}
+
+a.nav_links{
+  font-size: 30px;
+  font-variant: small-caps;
+  text-decoration: none;
+  z-index: 100;
+  color:323031;
+}
+
+a:link {color:#323031;}
+a:visited{color:#323031;}
+a:hover {color:#323031;}
+a:active {color:#323031;}
+
+.email_link {
+  width: 30%;
+  padding-left: 41%;
+  padding-right: 35%;
+}
+
+
+.header_image {
+  width: 100%;
+  margin: 0%;
+  padding-top: 0%;
+  vertical-align: middle;
+}
+
+.photography_image {
+  width: 50%;
+  margin: auto 25%;
+  vertical-align: middle;
+  border-radius: 4px;
+}
+
+.design-images {
+  width: 40%;
+  margin: auto 30%;
+  vertical-align: middle;
+  border-radius: 4px;
+}
+
+.about_main_image {
+  width: 40%;
+  margin: auto 30%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 4px;
+}
+
+
+.email_me_about_circle {
+  width: 20%;
+  margin: auto 40%;
+  padding-top: 1%;
+  border-radius: 4px;
+}
+
+.circle_image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: auto 44%;
+  vertical-align: middle;
+  padding: 2%;
+}
+
+figure {
+  margin: 0%;
+}
+
+.design-figcaption {
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: .5%;
+  margin-bottom: 5%;
+  text-align: justify;
+  font-family: 'Cuprum', sans-serif;
+  font-size: 15px;
+  color: #323031;
+}
+
+.photography-figcaption {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: .5%;
+  margin-bottom: 5%;
+  text-align: justify;
+  font-family: 'Cuprum', sans-serif;
+  font-size: 15px;
+  color: #323031;
+}
+
+
+
+/*  iphone 5 (320px)  */
+@media screen and (min-width:320px) and (max-width:374px){
+
+  .design-figcaption {
+    padding-top: 1%;
+    font-size: 8px;
+    margin-bottom: 12%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .photography-figcaption {
+    padding-top: 1%;
+    padding-bottom: 4%;
+    font-size: 8px;
+    margin-bottom: 12%;
+    margin: auto 10%;
+  }
+
+  .photography_image {
+    width: 80%;
+    margin: auto 10%;
+    vertical-align: middle;
+    padding-top: 0%;
+  }
+
+  .design-images {
+    width: 80%;
+    margin-top: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    vertical-align: middle;
+    padding-top: 0%;
+  }
+
+  a.nav_links {
+    position: relative;
+    font-size: 1.5em;
+    text-decoration: none;
+  }
+
+  .about_main_image {
+    width: 90%;
+    margin: auto 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 4px;
+  }
+
+  .circle_image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: auto 42%;
+    vertical-align: middle;
+  }
+
+  .email_me_about_circle {
+    width: 40%;
+    margin: auto 30%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    border-radius: 4px;
+  }
+
+  footer {
+    padding-top: 5%;
+  }
+
+}
+/*  iphone 6 (375px) iphone 6plus (414px) */
+@media screen and (min-width:375px) and (max-width:529px) {
+
+
+  nav {
+    font-family: 'Cuprum', sans-serif;
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    word-spacing: 20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 2%;
+  }
+
+  .about_main_image {
+    width: 90%;
+    margin: auto 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 4px;
+  }
+
+  .design-figcaption {
+    padding-top: 1%;
+    font-size: 8px;
+    margin-bottom: 12%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+  }
+
+  .photography-figcaption {
+    padding-top: 1%;
+    font-size: 8px;
+    margin-bottom: 12%;
+    margin-left: 10%;
+  }
+
+  .photography_image {
+    width: 80%;
+    margin: auto 10%;
+    vertical-align: middle;
+    padding-top: 0%;
+  }
+
+  .design-images {
+    width: 80%;
+    margin-top: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+    vertical-align: middle;
+    padding-top: 0%;
+  }
+
+  a.nav_links {
+    font-size: 2em;
+    text-decoration: none;
+  }
+
+  .circle_image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: auto 41%;
+    vertical-align: middle;
+
+  }
+
+  .email_me_about_circle {
+    width: 40%;
+    margin: auto 30%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    border-radius: 4px;
+  }
+
+  footer {
+    padding-top: 5%;
+  }
+
+}
+
+/*  ipad (768px)  */
+@media screen and (min-width:530px) and (max-width: 770px) {
+
+
+  .design-figcaption {
+    font-size: 12px;
+    margin: 2% 10%;
+  }
+
+  .photography-figcaption {
+    font-size: 12px;
+    margin: 2% 10%;
+  }
+
+  .photography_image {
+    width: 80%;
+    margin: auto 10%;
+    vertical-align: middle;
+    padding-top: 0%;
+  }
+
+  .design-images {
+    width: 80%;
+    margin-top: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+    vertical-align: middle;
+    padding-top: 0%;
+  }
+
+  a.nav_links {
+    font-size: 3em;
+    text-decoration: none;
+  }
+
+  .about_main_image {
+    width: 90%;
+    margin: auto 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 4px;
+  }
+
+  .circle_image {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin: auto 45%;
+    vertical-align: middle;
+  }
+
+  .email_me_about_circle {
+    width: 40%;
+    margin: auto 30%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    border-radius: 4px;
+  }
+
+}
