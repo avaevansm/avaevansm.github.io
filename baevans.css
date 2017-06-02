@@ -5,7 +5,7 @@
 body {
   height: 100%;
   margin: 0px;
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Helvetica', sans-serif;
 }
 
 header {
@@ -81,21 +81,22 @@ a:active {color:#323031;}
 }
 
 
-.email_me_about_circle {
+/*.email_me_about_circle {
   width: 20%;
   margin: auto 40%;
   padding-top: 1%;
+  padding-left: .5%;
   border-radius: 4px;
-}
+} */
 
-.circle_image {
+/*.circle_image {
   width: 80px;
   height: 80px;
   border-radius: 50%;
   margin: auto 44%;
   vertical-align: middle;
   padding: 2%;
-}
+}*/
 
 figure {
   margin: 0%;
@@ -175,13 +176,13 @@ figure {
     border-radius: 4px;
   }
 
-  .circle_image {
+  /*.circle_image {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     margin: auto 42%;
     vertical-align: middle;
-  }
+  }*/
 
   .email_me_about_circle {
     width: 40%;
@@ -257,14 +258,14 @@ figure {
     text-decoration: none;
   }
 
-  .circle_image {
+  /*.circle_image {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     margin: auto 41%;
     vertical-align: middle;
 
-  }
+  }*/
 
   .email_me_about_circle {
     width: 40%;
@@ -324,13 +325,13 @@ figure {
     border-radius: 4px;
   }
 
-  .circle_image {
+  /*.circle_image {
     width: 75px;
     height: 75px;
     border-radius: 50%;
     margin: auto 45%;
     vertical-align: middle;
-  }
+  }*/
 
   .email_me_about_circle {
     width: 40%;
