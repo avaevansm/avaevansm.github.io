@@ -129,6 +129,17 @@ figure {
 /*  iphone 5 (320px)  */
 @media screen and (min-width:320px) and (max-width:374px){
 
+  nav {
+    font-family: 'Cuprum', sans-serif;
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    word-spacing: 20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 2%;
+  }
+  
   .design-figcaption {
     padding-top: 1%;
     font-size: 8px;
